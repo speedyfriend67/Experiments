@@ -72,3 +72,37 @@ UI designed by: [Yue Zhang (liebe7@126.com)](mailto:liebe7@126.com)
 |Qz'|WB|EL'|RLw'|Tx|Yx|URw|IR|OB'|Pz|
 |Ay'|SD|DL|FU'|GF'|HF|JU|KR'|LD'|;y|
 |ZDw|XM'|CUw'|VLw|Bx'|Nx'|MRw'|,Uw|.M'|/Dw'|
+* **Hide All Elements When Timing**. Hide logo and all panels when timing.
+* **use milliseconds**. Display the millisecond digit, no matter whether it is checked, the internal timing accuracy of csTimer is 1 millisecond.
+* **time format**. Time format to display.
+* **Auto Export (per 100 solves)**. If checked, csTimer will export the solves automatically per 100 solves to the specified place, local file, csTimer server, or Google Storage.
+* **Import non-latest data**. If you've uploaded multiple backups, you can import from one of the up to 10 most recently uploaded backups, if you accidentally upload an empty backup, this option will help you retrieve your solves.
+* **Hint messages in logo**. cstimer's Logo will serve as an information display panel that prompts for a variety of information you may be interested in, such as breaking PB.
+* **Show Avg Label**. Two lines of labels are displayed below the the main timer, the current two averages, ao5 and ao12 by default.
+* **Zoom**. You can adjust sizes of all elements by this option.
+* **select timer's font**. Font of the main timer.
+* **UI design is**. You can switch ui design to material-like, or hide shadows by this option.
+* **UI style is**. Switch between desktop and mobile views.
+* **Scramble panel display style**. Make scramble panel embedded into background.
+* **Statistics panel display style**. Make list times panel embedded into background.
+* **Tools panel display style**. Make tool panel embedded into background.
+* **background image opacity**. Opacity of the background image.
+* **background image**. You can select your own image as the background image, however, only https urls are available due to security constraint of the browser.
+* **timer size**. Set the size of main timer.
+* **use small font after decimal point**. Use a smaller font size after the digital point in main timer.
+* **use mouse timer**. Use mouse to start timer, keyboard-trigger will also be available.
+* **use WCA inspection**. Enable WCA inspection procedure, which is a 15-second countdown, auto +2/DNF penalty will also be enabled if you inspecting more than 15 seconds.
+* **voice alert of WCA inspection**. Alert at 8s/12s of inspection, to simulate the alert from judge in WCA competitions.
+* **Voice volume**. Voice level of the alert above.
+* **entering in times with**. csTimer is able to add solves by several ways, it supports manually input, automatically record from a stackmat timer, connect to a bluetooth smart cube or play virtual Rubik's cube, besides keyboard timing.
+* **Unit when entering an integer**. When you type an integer XXX in the input box, what does it mean, XXX second or XXX centisecond or XXX millisecond?
+* **timer update is**. How timer is updated when timing.
+* **time of keeping space down(second(s))**. How long the space bar should be held before the timer turns green.
+* **multi-phase**. Number of phases, press any key to mark a split point when timing.
+* **Use Stackmat Status Information**. Stackmat will report its state, e.g. whether left or right area is touched, then csTimer is able to use these information, however, the data error might occur and cause unexpected behavior.
+* **scramble size**. Size of the scramble text.
+* **Auto scramble size**. The size of the scramble text will be automatically adjusted by the length of the scramble, which works with together previous option.
+* **monospaced scramble**. Use monospaced font for scramble text.
+* **Limit the height of scramble area**. When the scramble area is too high, a scroll bar will occur to avoid the raising of the scramble panel.
+* **Alignment of scramble area**. Alignment of the whole scramble area, include scramble type selector.
+* **pre-scramble**. Pre moves before scramble, which is used for virtual Rubik's cube and scramble image.
