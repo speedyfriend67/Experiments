@@ -106,3 +106,35 @@ UI designed by: [Yue Zhang (liebe7@126.com)](mailto:liebe7@126.com)
 * **Limit the height of scramble area**. When the scramble area is too high, a scroll bar will occur to avoid the raising of the scramble panel.
 * **Alignment of scramble area**. Alignment of the whole scramble area, include scramble type selector.
 * **pre-scramble**. Pre moves before scramble, which is used for virtual Rubik's cube and scramble image.
+## Tools detail
+
+* **ScrambleGenerator**. You are able to generate up to 999 scrambles with one click by this tool.
+* **Confirm time**. Tool to view current solves with its comment, scramble, solving date and reconstruction if available, which is also the dialog when you click on a solve.
+* **cross-session stats**. You are able to do cross-session statistics with this tool.
+* **Statistics**. Statistic table similar with the table in the list times panel.
+* **time distribution**. Time distribution and stability analysis, <X Y/Z means there are totally Y solves less than X seconds, and all of the latest Z solves are less than X seconds in the session.
+* **time trend**. Shows a trend curve of all solves in current session.
+* **Daily Statistics**. Count number of solves each day/week/month/year.
+* **draw scramble**. Scramble image to verify a correct scramble, all WCA puzzles are supported.
+* **Solvers > solve Roux S1**. Roux 1st step solver, which solves a 1x2x3 block.
+* **Solvers > solve EOLine**. EO line solver, which solves orientations of all 12 edges, and positions of DF and DB edges.
+* **Solvers > solve cross**. Cross solver, which solve DF, DL, DR, DB edges.
+* **Solvers > 2x2x2 face**. 2x2x2 face solver, which solves a face of 2x2x2 cube.
+* **Solvers > Cross + F2L**. Cross and F2L solver, which solves Cross and 4 F2Ls with computer search, so the solution might be far from human solutions.
+* **Solvers > Roux S1 + S2**. Roux 1st and 2nd step solver, which firstly solves a 1x2x3 block on the left face and then expend another 1x2x3 block on the right face with R, M, r, U.
+* **Solvers > 2x2x2 + 2x2x3**. Petrus 1st and 2nd step solver, which firstly solves an 2x2x2 block on the left and then expend it to a 2x2x3 on the left.
+* **Solvers > EOLine + ZZF2L**. Eoline and ZZF2L solver, which firstly solves the EOLine and then solve one of left 1x2x3 or right 1x2x3 and the solve the other 2x2x3.
+* **Solvers > SQ1 S1 + S2**. SQ1 1st and 2nd step solver, which firstly solves the shape of SQ1 and then split U pieces and D pieces.
+* **Solvers > Pyraminx V**. Pyraminx V solver, which solves three corners and two edges to shape into a 'V' pattern for pyraminx.
+* **Solvers > Skewb Face**. Skewb face solver, which solves a layer of skewb, more specifically, 1 center and 4 neighbor corners.
+* **Bluetooth Cube**. Auxiliary tool for bluetooth cube, which is able to show current state, battery power, real-time reconstruction etc.
+* **InsertionFinder**. Insertion finder, which is for FMC.
+* **metronome**. Metronome, besides beeping at specific frequency, you make it beep at specific time after starting solve as well.
+* **Online Competition**. Online competition, so you can login with WCA account and compete with all speedsolvers around the world with same scrambles.
+* **stackmat**. Auxiliary tool for Stackmat, which is able to view the status, power and noise level of the signal, etc.
+
+## Links
+
+* [Source code of this version on GitHub](https://github.com/afedotov/cstimer/tree/static)
+* [Original csTimer source code on GitHub](https://github.com/cs0x7f/cstimer)
+* [Original csTimer site](https://cstimer.net/)
